@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esencia Dental</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/hamburgers.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-5CMN03NGRE"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-5CMN03NGRE");
+    </script>
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "721407832339885");
+      fbq("track", "PageView");
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=721407832339885&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="images/logo_bueno.png" alt="" />
+        <p class="phone">Tel: 5510385413</p>
+        <button class="hamburger hamburger--spring" id="abrir" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+        <ul class="menu" id="menu">
+          <li><a href="index.html" class="link">Inicio</a></li>
+          <li><a href="nosotros.html" class="link">Nosotros</a></li>
+          <li><a href="promociones.html" class="link">Promociones</a></li>
+          <li>
+            <a
+              href="https://www.facebook.com/ClinicaEsenciaDental/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/esenciadentalgm/?igshid=YmMyMTA2M2Y="
+              target="_blank"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://api.whatsapp.com/send/?phone=525562192728&text&app_absent=0"
+              target="_blank"
+              class="link block"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="slide_contenedor">
+      <div class="miSlider fade">
+        <img src="images/6.png" alt="" />
+      </div>
+      <div class="miSlider fade">
+        <img src="images/5.png" alt="" />
+      </div>
+      <div class="miSlider fade">
+        <img src="images/portada1-web-esencia.jpg" alt="" />
+      </div>
+
+      <div class="miSlider fade">
+        <img src="images/portada2-web-esencia.jpg" alt="" />
+      </div>
+      <div class="miSlider fade">
+        <img src="images/portada3-web-esencia.jpg" alt="" />
+      </div>
+
+      <!-- <div class="text_description">
+        <h1><i class="fa-solid fa-teeth"></i> Esencia Dental</h1>
+        <h2>Atiéndete</h2>
+        <span>con expertos</span>
+        <div class="contac_hero">
+          <a
+            href="https://www.facebook.com/ClinicaEsenciaDental/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/esenciadentalgm/?igshid=YmMyMTA2M2Y="
+            target="_blank"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div> -->
+
+      <div class="barras">
+        <span class="barra active" onclick="posicionSlide(1)"></span>
+        <span class="barra" onclick="posicionSlide(2)"></span>
+        <span class="barra" onclick="posicionSlide(2)"></span>
+      </div>
+    </div>
+    <div class="main_especialidades" id="todo">
+      <h2>NUESTRAS PROMOCIONES</h2>
+      <div class="engloba_todo" style="transform: rotateX(0deg)">
+        <div class="card">
+          <div class="card__inner" id="endodoncia">
+            <img src="images/promo-1-dic.png" alt="" class="img_voltea" />
+            <!--  <p>Haz click para ver más información</p> -->
+            <a
+              href="https://api.whatsapp.com/send/?phone=525562192728&text&app_absent=0"
+              target="_blank"
+              >Más información</a
+            >
+          </div>
+
+          <div class="card__inner" id="ortondoncia">
+            <img src="images/promo-2-dic.jpg" alt="" class="img_voltea" />
+            <!--  <p>Haz click para ver más información</p> -->
+            <a
+              href="https://api.whatsapp.com/send/?phone=525562192728&text&app_absent=0"
+              target="_blank"
+              >Más información</a
+            >
+          </div>
+          <div class="card__inner" id="ortondoncia">
+            <img src="images/promo-esencia.jpg" alt="" class="img_voltea" />
+            <!--  <p>Haz click para ver más información</p> -->
+            <a
+              href="https://api.whatsapp.com/send/?phone=525562192728&text&app_absent=0"
+              target="_blank"
+              >Más información</a
+            >
+          </div>
+        </div>
+
+        <div class="descripcion_especialidades" style="display: none">
+          <div id="endo" class="description_specialities" style="display: none">
+            <i class="fas fa-times-circle cerrar" id="cerrarUno"></i>
+            <img src="images/icono_dentric.png" alt="" />
+            <h2><span>Coronas estéticas libres de metal</span></h2>
+            <ul>
+              <li><a href="#">Estética</a></li>
+              <li><a href="#">Resistencia</a></li>
+              <li><a href="#">Durabilidad</a></li>
+              <li><a href="#">Naturalidad</a></li>
+            </ul>
+            <p>
+              Una de las mayores ventajas del zirconio es su resistencia.
+              Además, las coronas de zirconio son una buena opción para las
+              personas que necesitan un tratamiento de este tipo, y los buenos
+              hábitos de cuidado oral harán que sus coronas le den varios años
+              de satisfacción y dientes saludables.
+            </p>
+          </div>
+          <div id="orto" class="description_specialities" style="display: none">
+            <i class="fas fa-times-circle cerrar" id="cerrarDos"></i>
+            <img src="images/icono_dentric.png" alt="" />
+            <h2>
+              <span>Resinas 3 x 2 </span>
+            </h2>
+            <ul>
+              <li><a href="#">Restaura tus piezas dentales</a></li>
+              <li><a href="#">Acabado natural y estético</a></li>
+              <li>
+                <a href="#">Resinas de alta durabilidad y resistencia</a>
+              </li>
+            </ul>
+          </div>
+          <div
+            id="cirmax"
+            class="description_specialities"
+            style="display: none"
+          >
+            <i class="fas fa-times-circle cerrar" id="cerrarTres"></i>
+            <img src="images/icono_dentric.png" alt="" />
+            <h2>
+              <span>Limpieza dental con ultrasonido + valoración</span>
+            </h2>
+            <ul>
+              <li><a href="#">Elimina el sarro y la placa dental.</a></li>
+              <li><a href="#">Dile adiós a las manchas de café.</a></li>
+              <li>
+                <a href="#"
+                  >Monitora el estado de tu salud bucal y prevén
+                  enfermedades.</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div id="imp" class="description_specialities" style="display: none">
+            <i class="fas fa-times-circle cerrar" id="cerrarCuatro"></i>
+            <img src="images/icono_dentric.png" alt="" />
+            <h2>
+              <span>Resinas Estéticas <br />$799</span>
+            </h2>
+            <ul>
+              <li>
+                <a href=""
+                  >Las resinas dentales son restauraciones estéticas de los
+                  dientes, que se pueden utilizar en dientes dañados o cariados
+                  en las cuales el material que se utiliza es precisamente la
+                  resina.</a
+                >
+              </li>
+              <li>
+                <a href=""
+                  >Ésta se trabaja al color del diente, por lo que el resultado
+                  es una restauración cosmética y agradable.</a
+                >
+              </li>
+            </ul>
+            <p>
+              Lo último en tecnología dental en manos de especialistas
+              certificados.
+            </p>
+            <p>Agenda tu cita sin costo hoy mismo.</p>
+          </div>
+          <div id="odon" class="description_specialities" style="display: none">
+            <i class="fas fa-times-circle cerrar" id="cerrarCinco"></i>
+            <img src="images/icono_dentric.png" alt="" />
+            <h2>
+              <span>Cirugía del 3er Molar <br />$1,799</span>
+            </h2>
+            <p>
+              Olvídate de tus muelas del juicio y los posibles problemas futuros
+              que puedan ocasionarte
+            </p>
+            <p>Agenda tu cita hoy , no esperes a que sea muy tarde.</p>
+          </div>
+          <div
+            id="perio"
+            class="description_specialities"
+            style="display: none"
+          >
+            <i class="fas fa-times-circle cerrar" id="cerrarSeis"></i>
+            <img src="images/icono_dentric.png" alt="" />
+            <h2>
+              <span
+                >Brackets Autoligado <br />
+                $8,999</span
+              >
+            </h2>
+            <p>
+              Los brackets de autoligado son una de las técnicas más novedosas y
+              efectivas.
+            </p>
+            <ul>
+              <li><a href="#">Ofrecen ventajas como un "auto ajuste".</a></li>
+              <li><a href="#">Tratemientos en menor tiempo.</a></li>
+              <li><a href="#">Menos molestias a dolor en cada ajuste.</a></li>
+              <li><a href="#">Menos visitas al Dentista.</a></li>
+              <p>
+                Contáctanos para una asesoría personalizada, tenemos el
+                tratamiento adecuado para ti. Agenda tu cita hoy.
+              </p>
+            </ul>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="ubicaciones">
+      <h2>Nuestra ubicación</h2>
+      <div class="container_ubicacion">
+        <div class="item_ubicacion">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.7768095397096!2d-99.13082348561873!3d19.378814447421124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fe5c74080929%3A0x7ff777fa05da2d59!2sPlaya%20Sur%2015%2C%20Militar%20Marte%2C%20Iztacalco%2C%2008830%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1651511396161!5m2!1ses-419!2smx"
+            width="400"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="item_ubicacion">
+          <h2>Dirección</h2>
+          <p>
+            Playa Sur 15, Militar Marte, Iztacalco, 08830 <br />
+            Ciudad de México, CDMX
+          </p>
+          <p>Teléfono: 55-1038-5413</p>
+        </div>
+      </div>
+    </section>
+    <div class="flotante">
+      <a href="tel:5510385413" target="_blank"
+        ><img src="images/phone.png" alt=""
+      /></a>
+      <a
+        href="https://api.whatsapp.com/send/?phone=525562192728&text&app_absent=0"
+        target="_blank"
+        ><img src="images/whats.png" alt=""
+      /></a>
+    </div>
+
+    <div class="contacto_footer">
+      <h2>CONTÁCTANOS</h2>
+      <span>gm.esencialdenta119@gmail.com</span>
+      <p>Para una mejor atención contacta a un especialista</p>
+      <div class="social_media">
+        <a href="https://www.facebook.com/ClinicaEsenciaDental/" target="_blank"
+          ><i class="fa-brands fa-facebook-f"></i
+        ></a>
+        <a href="tel:5510385413" target="_blank"
+          ><i class="fa-solid fa-phone"></i
+        ></a>
+        <a
+          href="https://api.whatsapp.com/send/?phone=525562192728&text&app_absent=0"
+          target="_blank"
+          ><i class="fa-brands fa-whatsapp-square"></i
+        ></a>
+        <a href="mailto:gm.esencialdenta119@gmail.com" target="_blank"
+          ><i class="fa-solid fa-envelopes-bulk"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/esenciadentalgm/?igshid=YmMyMTA2M2Y="
+          target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </div>
+    </div>
+    <footer>
+      <p>© Derechos reservados a Esencia Dental 2022</p>
+      <p>
+        Design by
+        <a href="https://dentarios.com.mx/programacion.php" target="_blank"
+          >Agencia de Marketing Digital Dentarios</a
+        >
+      </p>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/card.js"></script>
+    <script>
+      // Look for .hamburger
+      var hamburger = document.querySelector(".hamburger");
+      // On click
+      hamburger.addEventListener("click", function () {
+        // Toggle class "is-active"
+        hamburger.classList.toggle("is-active");
+        // Do something else, like open/close menu
+      });
+    </script>
+  </body>
+</html>

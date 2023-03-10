@@ -1,0 +1,318 @@
+.nosotros_text {
+  width: 100%;
+  padding: 10px 0px;
+  background-color: #3b40f4;
+}
+
+.nosotros_text h2 {
+  font-size: 35px;
+  color: #fff;
+  text-align: center;
+}
+.item_nosotros_text {
+  width: 90%;
+  margin: auto;
+}
+.item_nosotros_text p {
+  text-align: justify;
+  font-size: 18px;
+  color: #fff;
+}
+.equipo {
+  width: 100%;
+  margin: auto;
+  background-color: #dbd5d585;
+  padding: 10px 0px;
+}
+.contenedor_equipo {
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+}
+.efecto_equipo h2 {
+  text-align: center;
+  color: #3b40f4;
+  font-size: 35px;
+}
+.item_equipo:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foto_dentista {
+  width: 350px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.item_equipo:nth-child(2) p {
+  text-align: justify;
+}
+.contenedor_equipo_dos {
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: auto;
+  text-align: center;
+  grid-gap: 40px;
+  padding: 40px 0px;
+}
+.item_equipo_dos {
+  height: 300px;
+}
+.item_equipo_dos img {
+  max-width: 80%;
+}
+/*.item_promocion:nth-child(4){
+  grid-column: 2/3;
+}
+.item_promocion:nth-child(5){
+    grid-column: 3/4;
+  }*/
+.item_equipo:nth-child(1) h2 {
+  color: #3b40f4;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: left;
+}
+.item_equipo:nth-child(1) span {
+  display: block;
+  margin: auto;
+  font-size: 15px;
+}
+.item_equipo_dos:nth-child(2),
+.item_equipo_dos:nth-child(4),
+.item_equipo_dos:nth-child(6),
+.item_equipo_dos:nth-child(8),
+.item_equipo_dos:nth-child(10),
+.item_equipo_dos:nth-child(12),
+.item_equipo_dos:nth-child(14) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.item_equipo_dos h5 {
+  color: #3b40f4;
+  font-size: 17px;
+}
+.item_equipo_dos p {
+  font-size: 15px;
+  text-align: justify;
+}
+.instalaciones {
+  overflow: hidden;
+}
+.instalaciones img {
+  transition: transform 2s;
+}
+.instalaciones img:hover {
+  transform: scale(1.2);
+  transition: transform 2s;
+}
+.texto_titulo {
+  width: 0%;
+  margin: auto;
+  text-align: left;
+}
+
+.profesion_dos {
+  margin: 10px auto;
+  color: #781658;
+  text-align: left;
+  display: block;
+  margin: auto;
+}
+.sector_instalaciones {
+  width: 100%;
+  margin: auto;
+  align-items: center;
+}
+.sector_instalaciones h2 {
+  text-align: center;
+  color: #3b40f4;
+  font-size: 35px;
+}
+.contenedor_instalaciones {
+  display: grid;
+  width: 85%;
+  text-align: center;
+  grid-gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 20px auto;
+}
+
+.img_instalaciones {
+  max-width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  .nosotros_text h2 {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+  }
+  .item_nosotros_text {
+    width: 90%;
+    margin: auto;
+  }
+  .item_nosotros_text p {
+    text-align: justify;
+    font-size: 14px;
+    color: #fff;
+  }
+  .equipo {
+    width: 100%;
+    overflow-x: hidden;
+    margin: auto;
+    background-color: #f6f6f6;
+  }
+  .contenedor_equipo {
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+  }
+  .efecto_equipo h2 {
+    text-align: center;
+    color: #3b40f4;
+    font-size: 25px;
+    margin: 0px auto;
+  }
+
+  .item_equipo:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 300px;
+  }
+  .item_equipo:nth-child(1) h2 {
+    color: #1161a0;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+  .foto_dentista {
+    width: 350px;
+    height: 250px;
+    object-fit: contain;
+    text-align: center;
+    max-width: 100%;
+  }
+  .item_equipo:nth-child(1) .profesion {
+    margin: 0px auto;
+    color: #1161a0;
+    font-size: 20px;
+  }
+  .item_equipo:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item_equipo:nth-child(2) p {
+    text-align: justify;
+    font-size: 15px;
+    color: #444444;
+  }
+  .contenedor_equipo_dos {
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+    text-align: center;
+    grid-gap: 20px;
+    padding: 40px 0px;
+  }
+  .item_equipo_dos {
+    margin: 20px auto;
+    height: 300px;
+  }
+
+  .item_equipo:nth-child(1) span {
+    display: block;
+    margin: auto;
+    font-size: 15px;
+  }
+  .item_equipo_dos img {
+    max-width: 100%;
+    height: inherit;
+  }
+
+  .item_equipo_dos:nth-child(2),
+  .item_equipo_dos:nth-child(4),
+  .item_equipo_dos:nth-child(6),
+  .item_equipo_dos:nth-child(8),
+  .item_equipo_dos:nth-child(10),
+  .item_equipo_dos:nth-child(12),
+  .item_equipo_dos:nth-child(14) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+  }
+  .item_equipo_dos p {
+    text-align: justify;
+  }
+  .sector_instalaciones {
+    width: 100%;
+    overflow-x: hidden;
+    margin: auto;
+    align-items: center;
+  }
+  .sector_instalaciones h2 {
+    text-align: center;
+    color: #1161a0;
+    font-size: 25px;
+  }
+  .contenedor_instalaciones {
+    display: grid;
+    width: 85%;
+    text-align: center;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px auto;
+  }
+
+  .uno_item {
+    grid-column: auto;
+    height: auto;
+    background-color: transparent;
+  }
+  .dos_item {
+    grid-column: auto;
+    height: auto;
+    background-color: transparent;
+  }
+  .tres_item {
+    grid-column: auto;
+    height: auto;
+    background-color: transparent;
+  }
+  .cuatro_item {
+    grid-column: auto;
+    height: auto;
+    background-color: transparent;
+  }
+  .cinco_item {
+    grid-column: auto;
+
+    height: auto;
+    background-color: transparent;
+  }
+  .seis_item {
+    grid-column: auto;
+
+    height: auto;
+    background-color: transparent;
+  }
+  .img_instalaciones {
+    max-width: 100%;
+    height: inherit;
+    object-fit: cover;
+  }
+}

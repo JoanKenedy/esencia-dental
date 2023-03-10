@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esencia Dental</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/hamburgers.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-5CMN03NGRE"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-5CMN03NGRE");
+    </script>
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "721407832339885");
+      fbq("track", "PageView");
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=721407832339885&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="images/logo_bueno.png" alt="" />
+        <p class="phone">Tel: 5510385413</p>
+        <button class="hamburger hamburger--spring" id="abrir" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+        <ul class="menu" id="menu">
+          <li><a href="index.html" class="link">Inicio</a></li>
+          <li><a href="nosotros.html" class="link">Nosotros</a></li>
+          <li><a href="promociones.html" class="link">Promociones</a></li>
+          <li>
+            <a
+              href="https://www.facebook.com/ClinicaEsenciaDental/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/esenciadentalgm/?igshid=YmMyMTA2M2Y="
+              target="_blank"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://api.whatsapp.com/send/?phone=525562192728&text&app_absent=0"
+              target="_blank"
+              class="link block"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="slide_contenedor">
+      <div class="miSlider fade">
+        <img src="images/3.jpg" alt="" />
+      </div>
+
+      <div class="miSlider fade">
+        <img src="images/2.jpg" alt="" />
+      </div>
+      <div class="miSlider fade">
+        <img src="images/1.jpg" alt="" />
+      </div>
+
+      <div class="barras">
+        <span class="barra active" onclick="posicionSlide(1)"></span>
+        <span class="barra" onclick="posicionSlide(2)"></span>
+        <span class="barra" onclick="posicionSlide(2)"></span>
+      </div>
+    </div>
+    <section class="nosotros_text">
+      <h2>Nosotros</h2>
+      <div class="item_nosotros_text">
+        <p>
+          Somos una clínica dental que brinda atención integral, contamos con
+          distintas especialidades y equipo de diagnostico con equipos de Rayos
+          X, Cámara intra-Oral, ultrasonido, autoclave grado médico, ofreciendo
+          la comodidad a nuestros pacientes de realizarse distintos estudios sin
+          necesidad de salir de la clínica.
+        </p>
+      </div>
+    </section>
+    <section class="equipo">
+      <div class="efecto_equipo">
+        <h2>Nuestro Equipo</h2>
+      </div>
+
+      <div class="contenedor_equipo">
+        <div class="item_equipo" data-aos="fade-down" data-aos-duration="1000">
+          <img src="images/dr_hector.jpg" alt=" " class="foto_dentista" />
+          <h2 class="name_dr">Dr. Héctor Guzmán Armenta</h2>
+          <span class="profesion_dos">Cirujano Dentista </span>
+        </div>
+        <div class="item_equipo" data-aos="fade-up" data-aos-duration="1000">
+          <p>
+            <span class="text_morado">El Dr. Héctor Guzmán Armenta</span>
+            egreso de la universidad autonoma de nuevo león en el 2001.Fue
+            docente en esta misma universidad por varios años en el área de
+            Anatomía Humana. En el 2004 realizo el Diplomado de Ortodoncia
+            Básica en el Instituto para el Desarrollo y Actualización para
+            Profesionales Mty, continuando en 2010 con un Postgrado con duración
+            de 3 años en la misma casa de estudios. La Dra. Guerrero ha
+            continuado su carrera académica con diferentes diplomados y cursos
+            de actualización,
+            <span class="text_morado"
+              >culminando en el 2021 el DIPLOMADO DE BIOMECANICA EN ORTODONCIA.
+              Actualmente la Dra se encuentra estudiando un DIPLOMADO EN
+              MINIMPLANTES EN ORTODONCIA.</span
+            >
+          </p>
+        </div>
+      </div>
+      <div class="contenedor_equipo_dos">
+        <div class="item_equipo_dos">
+          <img src="images/resinas.png" alt="" />
+        </div>
+        <div
+          class="item_equipo_dos"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div>
+            <h5>Cirujano Bucal</h5>
+            <span class="profesion_dos"></span>
+            <p>
+              Los cirujanos bucales están capacitados para colocar implantes
+              dentales y trabajar junto con un dentista general para reemplazar
+              los dientes faltantes. También trabajan junto con ortodoncistas
+              para enderezar los dientes que requieran de una cirugía de maxilar
+              para ajustar la mordida del paciente.
+            </p>
+          </div>
+        </div>
+        <div class="item_equipo_dos">
+          <img src="images/implante-dental.png" alt="" />
+        </div>
+        <div
+          class="item_equipo_dos"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div>
+            <h5>Implantólogo</h5>
+            <span class="profesion_dos"></span>
+            <p>
+              Este profesional de la medicina estética es el encargado de
+              colocar las prótesis y, posteriormente, de revisar que la
+              osteointegración o cicatrización de los implantes se hace de
+              manera efectiva y también de revisar que la colocación de estas
+              piezas, que pueden durar de por vida si se cuidan correctamente.
+            </p>
+          </div>
+        </div>
+        <div class="item_equipo_dos">
+          <img src="images/encia.png" alt="" />
+        </div>
+        <div
+          class="item_equipo_dos"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div>
+            <h5>Periodoncista</h5>
+            <span class="profesion_dos"></span>
+            <p>
+              La periodoncia es el área de la Odontología que se encarga del
+              estudio, prevención y tratamiento de aquellas patologías que
+              afectan a los tejidos que protegen, rodean y sujetan los dientes:
+              encía, hueso alveolar, ligamento periodontal y cemento radicular.
+            </p>
+          </div>
+        </div>
+        <div class="item_equipo_dos">
+          <img src="images/endodoncia.png" alt="" />
+        </div>
+        <div
+          class="item_equipo_dos"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div>
+            <h5>Endodoncista</h5>
+
+            <p>
+              Gracias a sus conocimientos y habilidades para tratar las lesiones
+              en la pulpa dental, los endodoncistas están especializados en
+              aliviar el dolor y mantener los dientes en la boca de los
+              pacientes, para que mantengan sus piezas naturales en la boca.
+            </p>
+          </div>
+        </div>
+        <div class="item_equipo_dos">
+          <img src="images/ortodoncia.png" alt="" />
+        </div>
+        <div
+          class="item_equipo_dos"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div>
+            <h5>Ortodoncista</h5>
+
+            <p>
+              Los ortodoncistas se especializan en corregir la alineación de los
+              dientes y mejorar la mordida mediante la colocación de aparatos y
+              dispositivos correctivos, entre los que se encuentran los aparatos
+              ortodóncicos tradicionales, los aparatos linguales y los
+              alineadores transparentes.
+            </p>
+          </div>
+        </div>
+        <div class="item_equipo_dos">
+          <img src="images/dentista.png" alt="" />
+        </div>
+        <div
+          class="item_equipo_dos"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div>
+            <h5>Odontologo General</h5>
+
+            <p>
+              Esta especialidad representa, en la mayoría de los casos, el
+              contacto inicial del paciente con el profesional de la
+              odontología, ya que se encarga de solucionar los problemas
+              primarios que tienen que ver con la boca, dientes y otras
+              estructuras relacionadas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="sector_instalaciones">
+      <h2>Nuestras Instalaciones</h2>
+      <div class="contenedor_instalaciones">
+        <div
+          class="uno_item instalaciones"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <img src="images/img-uno.jpeg" alt="" class="img_instalaciones" />
+        </div>
+        <div
+          class="dos_item instalaciones"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <img src="images/img-dos.jpeg" alt="" class="img_instalaciones" />
+        </div>
+        <div
+          class="tres_item instalaciones"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <img src="images/img-tres.jpeg" alt="" class="img_instalaciones" />
+        </div>
+        <div
+          class="cuatro_item instalaciones"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <img src="images/img-cuatro.jpeg" alt="" class="img_instalaciones" />
+        </div>
+
+        <div
+          class="seis_item instalaciones"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <img src="images/img-siete.jpeg" alt="" class="img_instalaciones" />
+        </div>
+        <div
+          class="uno_item instalaciones"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <img src="images/img-ocho.jpeg" alt="" class="img_instalaciones" />
+        </div>
+        <div
+          class="dos_item instalaciones"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <img src="images/img-nueve.jpeg" alt="" class="img_instalaciones" />
+        </div>
+        <div
+          class="dos_item instalaciones"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <img src="images/img-doce.jpeg" alt="" class="img_instalaciones" />
+        </div>
+      </div>
+    </div>
+
+    <section class="ubicaciones">
+      <h2>Nuestra ubicación</h2>
+      <div class="container_ubicacion">
+        <div class="item_ubicacion">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.7768095397096!2d-99.13082348561873!3d19.378814447421124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fe5c74080929%3A0x7ff777fa05da2d59!2sPlaya%20Sur%2015%2C%20Militar%20Marte%2C%20Iztacalco%2C%2008830%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1651511396161!5m2!1ses-419!2smx"
+            width="400"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="item_ubicacion">
+          <h2>Dirección</h2>
+          <p>
+            Playa Sur 15, Militar Marte, Iztacalco, 08830 <br />
+            Ciudad de México, CDMX
+          </p>
+          <p>Teléfono: 55-1038-5413</p>
+        </div>
+      </div>
+    </section>
+    <div class="flotante">
+      <a href="tel:5510385413" target="_blank"
+        ><img src="images/phone.png" alt=""
+      /></a>
+      <a
+        href="https://api.whatsapp.com/send/?phone=525562192728&text&app_absent=0"
+        target="_blank"
+        ><img src="images/whats.png" alt=""
+      /></a>
+    </div>
+    <div class="contacto_footer">
+      <h2>CONTÁCTANOS</h2>
+      <span>gm.esencialdenta119@gmail.com</span>
+      <p>Para una mejor atención contacta a un especialista</p>
+      <div class="social_media">
+        <a href="https://www.facebook.com/ClinicaEsenciaDental/" target="_blank"
+          ><i class="fa-brands fa-facebook-f"></i
+        ></a>
+        <a href="tel:5510385413" target="_blank"
+          ><i class="fa-solid fa-phone"></i
+        ></a>
+        <a
+          href="https://api.whatsapp.com/send/?phone=525562192728&text&app_absent=0"
+          target="_blank"
+          ><i class="fa-brands fa-whatsapp-square"></i
+        ></a>
+        <a href="mailto:gm.esencialdenta119@gmail.com" target="_blank"
+          ><i class="fa-solid fa-envelopes-bulk"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/esenciadentalgm/?igshid=YmMyMTA2M2Y="
+          target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </div>
+    </div>
+    <footer>
+      <p>© Derechos reservados a Esencia Dental 2022</p>
+      <p>
+        Design by
+        <a href="https://dentarios.com.mx/programacion.php" target="_blank"
+          >Agencia de Marketing Digital Dentarios</a
+        >
+      </p>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+      // Look for .hamburger
+      var hamburger = document.querySelector(".hamburger");
+      // On click
+      hamburger.addEventListener("click", function () {
+        // Toggle class "is-active"
+        hamburger.classList.toggle("is-active");
+        // Do something else, like open/close menu
+      });
+    </script>
+  </body>
+</html>

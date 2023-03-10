@@ -1,0 +1,182 @@
+.cita {
+  position: relative;
+  width: 100%;
+  bottom: 10%;
+  left: 0;
+  z-index: 999;
+  height: 270px;
+}
+.container_cita {
+  position: absolute;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 85%;
+  height: inherit;
+  top: 10%;
+  left: 7.5%;
+}
+.item_cita:nth-child(1) {
+  background-color: #05a6e1;
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.item_cita:nth-child(1) p {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 300;
+}
+.item_cita:nth-child(1) p strong {
+  font-weight: 900;
+}
+.item_cita:nth-child(1) span {
+  color: #fff;
+  font-size: 22px;
+}
+.item_cita:nth-child(1) a {
+  display: block;
+  background-color: crimson;
+  padding: 15px;
+  width: 220px;
+  display: flex;
+  justify-content: space-evenly;
+  color: #fff;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 7px;
+}
+.item_cita:nth-child(2) {
+  background-color: #080a79;
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.item_cita:nth-child(2) > div {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 300;
+}
+.item_cita:nth-child(2) > div strong {
+  font-weight: 900;
+}
+.item_cita:nth-child(2) p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-size: 17px;
+  border-bottom: 2px dotted #fff;
+  padding-bottom: 5px;
+}
+@media (max-width: 1250px) {
+  .cita {
+    position: relative;
+    width: 100%;
+    bottom: 12%;
+    left: 0;
+    z-index: 999;
+    height: 300px;
+  }
+}
+@media (max-width: 1150px) {
+  .cita {
+    position: relative;
+    width: 100%;
+    bottom: 10%;
+    left: 0;
+    z-index: 999;
+    height: 300px;
+  }
+}
+@media (max-width: 767px) {
+  .cita {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    height: 210px;
+  }
+  .container_cita {
+    position: absolute;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    height: inherit;
+    top: 5%;
+    left: 0;
+  }
+  .item_cita:nth-child(1) {
+    background-color: #05a6e1;
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    line-height: 5px;
+  }
+  .item_cita:nth-child(1) p {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+  }
+  .item_cita:nth-child(1) p strong {
+    font-weight: 900;
+  }
+  .item_cita:nth-child(1) span {
+    color: #fff;
+    font-size: 20px;
+  }
+  .item_cita:nth-child(1) a {
+    display: block;
+    background-color: crimson;
+    padding: 10px;
+    width: 220px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 7px;
+  }
+  .item_cita:nth-child(2) {
+    background-color: #080a79;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    display: none;
+  }
+  .item_cita:nth-child(2) > div {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+  }
+  .item_cita:nth-child(2) > div strong {
+    font-weight: 900;
+  }
+  .item_cita:nth-child(2) p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+    border-bottom: 2px dotted #fff;
+    padding-bottom: 5px;
+  }
+}
+@media (max-width: 350px) {
+}

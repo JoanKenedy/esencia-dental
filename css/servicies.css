@@ -1,0 +1,216 @@
+.services {
+  background-image: url(../images/fondo_servicios.png);
+  width: 100%;
+  height: 800px;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+.services .title_servicies {
+  color: #fff;
+  font-size: 35px;
+  text-align: center;
+  padding: 20px 0px 10px 0px;
+}
+.services .title_servicies strong {
+  font-weight: 800;
+}
+.services .span_title {
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+  margin: auto;
+  font-weight: 500;
+}
+.container_servicies {
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 70px auto;
+  gap: 50px;
+}
+.item_servicies {
+  color: #fff;
+  position: relative;
+  text-align: center;
+}
+.item_servicies i {
+  margin: 7px;
+  font-size: 22px;
+  text-align: center;
+}
+.item_servicies span {
+  font-size: 25px;
+}
+.item_servicies p {
+  font-size: 17px;
+  text-align: justify;
+}
+.btn_despega {
+  background-color: #fff;
+  color: #1838a1;
+  width: 200px;
+  margin: auto;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu_apareceUno {
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+  transition: 0.4s;
+}
+.menu_apareceUno.aparecer_submenu {
+  visibility: visible;
+  height: 30%;
+  overflow: visible;
+}
+.menu_apareceDos {
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+  transition: 0.4s;
+}
+.menu_apareceDos.aparecer_submenu {
+  visibility: visible;
+  height: 40%;
+  overflow: visible;
+}
+.menu_apareceTres {
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+  transition: 0.4s;
+}
+.menu_apareceTres.aparecer_submenu {
+  visibility: visible;
+  height: 48%;
+  overflow: visible;
+}
+.menu_apareceCuatro {
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+  transition: 0.4s;
+}
+.menu_apareceCuatro.aparecer_submenu {
+  visibility: visible;
+  height: 30%;
+  overflow: visible;
+}
+.menu_apareceCinco {
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+  transition: 0.4s;
+}
+.menu_apareceCinco.aparecer_submenu {
+  visibility: visible;
+  height: 30%;
+  overflow: visible;
+}
+.menu_apareceSeis {
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+  transition: 0.4s;
+}
+.menu_apareceSeis.aparecer_submenu {
+  visibility: visible;
+  height: 30%;
+  overflow: visible;
+}
+
+@media (max-width: 767px) {
+  .services {
+    background-image: url(../images/fondo_servicios.png);
+    width: 100%;
+    height: 1600px;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 0px;
+  }
+  .services .title_servicies {
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+  }
+  .services .title_servicies strong {
+    font-weight: 800;
+  }
+  .services .span_title {
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    margin: auto;
+    font-weight: 500;
+  }
+  .container_servicies {
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 20px auto;
+    gap: 30px;
+  }
+  .item_servicies {
+    color: #fff;
+  }
+  .item_servicies i {
+    margin: 7px;
+    font-size: 35px;
+  }
+  .item_servicies span {
+    font-size: 25px;
+  }
+  .item_servicies p {
+    font-size: 17px;
+    text-align: justify;
+  }
+  .menu_apareceUno.aparecer_submenu {
+    visibility: visible;
+    height: 38%;
+    overflow: visible;
+  }
+  .btn_despegaUno i,
+  .btn_despegaDos i,
+  .btn_despegaTres i,
+  .btn_despegaCuatro i,
+  .btn_despegaCinco i,
+  .btn_despegaSeis i {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 380px) {
+  .services {
+    background-image: url(../images/fondo_servicios.png);
+    width: 100%;
+    height: 1550px;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 0px;
+  }
+  .services .title_servicies {
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    padding: 5px 10px 0px 10px;
+  }
+  .services .span_title {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    font-weight: 500;
+    padding: 0px 10px 0px 10px;
+  }
+  .item_servicies p {
+    font-size: 15px;
+    text-align: justify;
+  }
+}
